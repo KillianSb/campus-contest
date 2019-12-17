@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CA Blog - Contact</title>
+    <link rel="icon" type="image/jpg" href="assets/images/ca.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+  <!-- Corp du HTML -->
+  <body>
+    <!-- header -->
+    <header>
+      <!-- image -->
+      <a href="index.html" class="logo">
+        <img src="assets/images/CA.png" alt="Description de l'image" width="150" height="150" />
+      </a>
+      <!-- menu -->
+      <nav>
+        <!-- liste à puces -->
+        <ul class="niv_1">
+          <li>
+            <a href="index.html" title="Accueil">Accueil</a>
+          </li>
+          <li>
+            <a href="#" title="Catégories">Catégories</a>
+            <!-- sous liste à puce -->
+            <ul class="niv_2">
+              <li>
+                <a href="bitcoin.html" title="Bitcoin">Bitcoin</a>
+              </li>
+              <li>
+                <a href="ca.html" title="Campus Academy">Campus Academy</a>
+              </li>
+              <li>
+                <a href="cours.html" title="Cours">Cours</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- réseaux sociaux -->
+      <ul class="rs">
+        <li>
+          <a target="_blank" href="https://facebook.com" title="Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://twitter.com" title="Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://instagram.com" title="Instagram">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com" title="Github">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- section image & titre -->
+    <section class="header_title">
+      <h1>Contact</h1>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <!-- gauche -->
+      <div class="left">
+        &copy; 2019 - <a target="_blank" href="http://www.kevinniel.fr" title="Kévin NIEL">Kévin NIEL</a>
+      </div>
+      <!-- droite -->
+      <div class="right">
+        <ul class="footer_links">
+          <li>
+            <a href="#" title="Mentions légales">Mentions légales</a>
+          </li>
+          <li>
+            <a href="#" title="Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+      var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+        slidesPerView: 3,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+          delay: 5000,
+        },
+        spaceBetween: 10,
+      })
+      </script>
+  </body>
+</html>
