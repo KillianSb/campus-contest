@@ -6,10 +6,9 @@ body {
 }
 
 p {
-    color: darkgoldenrod;
+    color: rgb(255, 255, 255);
     font-style: oblique;
     font-size: 18px;
-    text-shadow: 3px 2px 16px rgb(255, 230, 0);
 }
 
 a, a:visited {
@@ -40,6 +39,11 @@ header {
     padding-top: 20px;
 }
 
+/* header a#CA{
+    text-align: ;
+    padding-top: 20px;
+} */
+
 div.logo img {
     margin: 0 auto;
 }
@@ -49,8 +53,8 @@ span {
 } 
 
 section.header_title {
-    height: 270px;
-    background-image: url('assets/images/arriere6.jpg');
+    height: 315px;
+    background-image: url('assets/images/Fond-Titre.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -59,12 +63,12 @@ section.header_title {
 
 section.header_title h1 {
     margin: 0;
-    font-size: 50px;
+    font-size: 90px;
     text-align: center;
     padding: 110px 0;
     text-transform: uppercase;
     color: black;
-    text-shadow: 3px 2px 16px rgb(126, 27, 255);
+    text-shadow: 3px 2px 16px rgb(255, 255, 255);
 }
 
 ul.rs {
@@ -86,15 +90,27 @@ ul.rs li a:visited {
 	font-size: 50px;
 }
 
-ul.rs li a:hover,
-ul.rs li a:focus {
-	color: #AE831D;
+ul.rs li a#facebook:hover,
+ul.rs li a#facebook:focus {
+	color: rgb(19, 50, 185);
+}
+
+ul.rs li a#twitter:hover,
+ul.rs li a#twitter:focus {
+	color: rgb(9, 106, 145);
+}
+
+ul.rs li a#linkedin:hover,
+ul.rs li a#linkedin:focus {
+	color: rgb(20, 120, 167);
+}
+
+ul.rs li a#github:hover,
+ul.rs li a#github:focus {
+	color: rgb(255, 255, 255);
 }
 
 /* MENU */
-nav {
-    box-shadow: 3px 2px 16px darkgoldenrod
-}
 nav ul {
     list-style-type: none;
 }
@@ -119,7 +135,7 @@ ul.niv_1 > li {
 }
 
 ul.niv_1 li a:hover, ul.niv_1 li a:focus {
-    color: darkgoldenrod
+    color: rgb(6, 130, 202)
 }
 
 ul.niv_1 li:hover ul.niv_2 {
@@ -136,7 +152,6 @@ ul.niv_2 {
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 0;
-    text-shadow: 3px 2px 16px darkgoldenrod;
     box-shadow: 3px 2px 16px rgb(5, 5, 5);
 }
 
@@ -147,13 +162,12 @@ ul.niv_2 li a:visited {
 
 ul.niv_2 li a:hover, 
 ul.niv_2 li a:focus {
-    background-color: rgb(184, 134, 11);
+    background-color: rgb(6, 130, 202);
     color: rgb(0, 0, 0);
 }
 
 /* FOOTER */
 footer {
-    box-shadow: 0px 1px 11px darkgoldenrod;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -168,7 +182,7 @@ footer {
 footer .right {
     position: absolute;
     top: 0;
-    right: 300px;
+    right: 150px;
 }
 
 ul.footer_links {
@@ -177,13 +191,14 @@ ul.footer_links {
 
 ul.footer_links li {
     display: inline-block;
-    padding: 4px 8px;
+    padding: 8px 1px;
+    /* position: absolute; */
 }
 
 /* MIDBLOCK */
 
 .mid_block {
-    padding: 40px 100px 80px 400px;
+    padding: 40px 100px 40px 400px;
     position: relative;
     margin-bottom: 80px;
 }
@@ -201,7 +216,6 @@ ul.footer_links li {
     height: 250px;
     margin-bottom: 20px;
     position: relative;
-    box-shadow: 0px 1px 11px darkgoldenrod;
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -279,168 +293,4 @@ ul.footer_links li {
 
 .mid_block section p:first-child {
     margin-top: 0;
-}
-
-.citation {
-    margin: 120px 0;
-    font-size: 48px;
-    padding: 20px 40px 20px 70px;
-    text-align: center;
-}
-
-.citation blockquote {
-    font-family: 'Dancing Script', cursive;
-    position: relative;
-}
-
-.citation blockquote:before {
-	position: absolute;
-	top: -340px;
-	left: -90px;
-	content: "«";
-	font-size: 450px;
-	transform: rotate(30deg);
-    color: #AE831D;
-    text-shadow: 3px 2px 16px black;
-}
-
-.citation span {
-	display: block;
-	text-align: right;
-	font-size: 16px;
-	color: #AE831D;
-	padding-top: 30px;
-    font-family: 'Great Vibes', cursive;
-    font-style: inherit;
-    text-shadow: 3px 2px 16px rgb(240, 219, 28);
-}
-
-/* ARTICLE */
-
-div.article1 {
-    text-shadow: 3px 2px 16px darkgoldenrod;
-}
-
-.slider .swiper-slide .image {
-	width: auto;
-	height: 250px;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-
-.slider .swiper-slide .image span {
-	display: block;
-	width: 100%;
-	position: absolute;
-	bottom: 10px;
-	left: 0;
-	text-align: center;
-	color: #FFF;
-}
-
-.slider .swiper-slide .image span:hover,
-.slider .swiper-slide .image span:focus {
-    color: #AE831D;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-    color: #AE831D;
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-    color: #FFF;
-}
-
-div.titre {
-    text-align: center;
-    text-shadow: 3px 2px 16px darkgoldenrod;
-    famille de polices: 'Lobster Two', cursive;
-    font-style: inherit;
-    font-size: 30px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-}
-
-.titre::after {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    content: "";
-    background-color: darkgoldenrod;
-    width: 75px;
-    height: 2px;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-    color: rgb(0, 0, 0);
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-	color: darkgoldenrod;
-}
-
-@media only screen and (max-width: 892px) {
-	ul.rs {
-		right: 50px;
-	}
-}
-
-@media only screen and (max-width: 870px) {
-	section.header_title h1 {
-        font-size: 45px;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-	ul.rs {
-		position: inherit;
-		top: inherit;
-		right: inherit;
-	}
-}
-
-@media only screen and (max-width: 786px) {
-	section.header_title h1 {
-        font-size: 35px;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-	ul.rs {
-		right: 50px;
-	}
-}
-
-@media only screen and (max-width: 616px) {
-	section.header_title h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 564px) {
-	ul.niv_1 a {
-        font-size: 20px;
-        width: auto;
-        position: relative;
-        margin-right: 10px;
-	}
-}
-
-@media only screen and (max-width: 556px) {
-	ul.niv_2 {
-        border-radius: 10px;
-        z-index: 100000000;
-	}
 }
