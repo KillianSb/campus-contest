@@ -102,9 +102,11 @@ section#comm p {
     border-width: 6px;
     border-style: double;
     border-color: rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
     margin-left: 100px;
     margin-right: 800px;
     margin-top: 150px;
+    margin-bottom: 60px;
     text-align: center;
     padding: 10px 10px
 }
