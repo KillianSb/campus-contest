@@ -20,3 +20,9 @@ incorpporation dans la page contact d'un espace enregistrement et recommandation
 
 modification de la maquette et du scenario en consequence.
 
+Incorporation du planing previsionnel
+
+Modifications avancées sur page d'acceuil.
+
+Modification sur page galeries entamées
+
