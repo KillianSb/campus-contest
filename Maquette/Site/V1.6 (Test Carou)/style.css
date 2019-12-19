@@ -702,3 +702,63 @@ img{max-width:100%}
 .caroussel_diapo-2 #carou_huit-2:checked ~ .contenu_carou-2 .caroussel-2 img:nth-child(8){transform:rotateY(315deg) translateZ(540px) scale(1);opacity:1}
 
 /*****FIN carrousel 3d avec navigation 2*****/
+
+
+/* ---------------page projet--------------- */
+
+section.header_title h1 span {
+    padding:60px;
+}
+
+
+
+.corp_left aside {
+    border-radius: 10px;
+    border-width: 6px;
+    border-style: double;
+    border-color: rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin: 150px 900px 60px 200px;
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+
+
+
+
+.corp_left div.projet1 {
+    color: darkturquoise;
+    margin: 20px;
+    padding: 40px 0%;
+    position: relative;
+}
+
+
+.corp_left div.projet2 {
+    color: rgb(0, 38, 209);
+    margin: 20px;
+    padding: 40px 0%;
+    position: relative;
+}
+
+
+.corp_left div.projet3 {
+    color: rgb(0, 209, 28);
+    margin: 20px;
+    padding: 40px 0%;
+    position: relative;
+}
+
+
+
+.corp_right P {
+    border-radius: 10px;
+    border-width: 6px;
+    border-style: double;
+    border-color: rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin: -1420px 100px 60px 800px;
+    text-align: center;
+    padding: 10px 10px;
+}
