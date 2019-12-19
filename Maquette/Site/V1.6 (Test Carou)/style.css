@@ -106,6 +106,29 @@ section.Galerie-titre h1 {
 
 /* FIN Section Titre Galerie */
 
+/* Section Titre CV */
+
+section.CV-titre {
+    height: 315px;
+    background-image: url('assets/images/Fond-CV.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.CV-titre h1 {
+    margin: 0;
+    font-size: 90px;
+    text-align: center;
+    padding: 110px 0;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 3px 2px 16px rgb(255, 255, 255);
+}
+
+/* FIN Section Titre CV */
+
 /* Section Contact*/
 
 section iframe#Maps {
