@@ -1,117 +1,52 @@
-body#CV-fond {
-    color:black;
-    background-color:white;
-    background-image:url(assets/images/Fond-CV1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-repeat: initial;
+/* ---------------page projet--------------- */
+
+section.header_title h1 span {
+    padding:100px;
 }
 
-section.CV-titre h1 {
-    margin: 0;
-    font-size: 90px;
+.corp_left aside {
+    /* border-radius: 10px;
+    border-width: 6px;
+    border-style: double;
+    border-color: rgb(255, 255, 255); */
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin: 10px 750px 60px 80px;
     text-align: center;
-    padding: 110px 0;
-    text-transform: uppercase;
-    color: black;
-    text-shadow: 3px 2px 16px rgb(255, 255, 255);
+    padding: 10px 10px;
+    
 }
 
-section.CV-titre h1 {
-    margin: 0;
-    font-size: 90px;
-    text-align: center;
-    padding: 110px 0;
-    text-transform: uppercase;
-    color: black;
-    text-shadow: 3px 2px 16px rgb(255, 255, 255);
-}
-
-a#Acc {
-    font-size: 35px;
-    text-shadow: 1px 1px white;
-}
-
-a#Cat {
-    font-size: 35px;
-    text-shadow: 1px 1px white;
-}
-
-a#Proj {
-    font-size: 35px;
-    text-shadow: 1px 1px white;
-}
-
-a#Pro {
-    font-size: 35px;
-    text-shadow: 1px 1px white;
-}
-
-a#Gal {
-    font-size: 35px;
-    text-shadow: 1px 1px white;
-}
-
-a#CV {
-    font-size: 35px;
-    text-shadow: 1px 1px white;
-}
-
-a#Con {
-    font-size: 35px;
-    text-shadow: 1px 1px white;
-}
-
-ul.rs#rscv {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	position: absolute;
-	top: 110px;
-    right: 45px;
-}
-
-ul.niv_1CV {
-    margin-bottom: 0;
-}
-
-ul.niv_1CV > li {
-    display: inline-block;
+.corp_left div.projet1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    margin: 20px;
+    padding: 40px 0%;
     position: relative;
 }
 
-ul.niv_1CV li a:hover, ul.niv_1CV li a:focus {
+.corp_left div.projet2 {
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    margin: 20px;
+    padding: 40px 0%;
+    position: relative;
+}
+
+.corp_left div.projet3 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    margin: 20px;
+    padding: 40px 0%;
+    position: relative;
+}
+
+.corp_right P {
     border-radius: 10px;
-}
-
-ul.niv_1CV li:hover ul.niv_2CV {
-    display: block;
-    border-radius: 10px;
-    margin-left: 16px;
-}
-
-ul.niv_2CV {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    /* background-color: gray; */
-    background-image: url('assets/images/Back.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 0;
-    box-shadow: 3px 2px 16px rgb(5, 5, 5);
-}
-
-ul.niv_2CV li a, 
-ul.niv_2CV li a:visited {
-    text-align: left;
-}
-
-ul.niv_2CV li a:hover, 
-ul.niv_2CV li a:focus {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    border-width: 6px;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin: -1420px 100px 60px 800px;
+    text-align: center;
+    padding: 10px 10px;
 }
