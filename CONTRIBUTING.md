@@ -1,2 +1,0 @@
-Olivier QUILLET
-Killian SIENISKI
