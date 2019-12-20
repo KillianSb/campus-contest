@@ -1,0 +1,843 @@
+ body {
+    color:black;
+    background-color:white;
+    background-image:url(assets/images/Back.jpg);
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    /* background-repeat: initial; */
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-size: 18px;
+}
+
+a, a:visited {
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+a:hover, a:focus {
+	color: rgb(255, 255, 255);
+}
+
+/* a.menu_bas{
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-size: 17px;
+} */
+
+h1 {
+    font-family: 'El Messiri', sans-serif;
+    font-style: inherit;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+a#CA {
+    list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 35px;
+	left: 250px;
+}
+
+div.logo img {
+    /* margin: 0 auto; */
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* span {
+    font-family: fantasy;
+}  */
+
+section.header_title {
+    height: 315px;
+    background-image: url('assets/images/Fond-Titre.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.header_title h1 {
+    margin: 0;
+    font-size: 90px;
+    text-align: center;
+    padding: 110px 0;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 3px 2px 16px rgb(255, 255, 255);
+}
+
+/* Section Titre Galerie */
+
+section.Galerie-titre {
+    height: 315px;
+    background-image: url('assets/images/fond-Galerie.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.Galerie-titre h1 {
+    margin: 0;
+    font-size: 90px;
+    text-align: center;
+    padding: 110px 0;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 3px 2px 16px rgb(255, 255, 255);
+}
+
+/* FIN Section Titre Galerie */
+
+
+
+/* Section Titre CV */
+
+body#CV-fond {
+    color:black;
+    background-color:white;
+    background-image:url(assets/images/Fond-CV1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-repeat: initial;
+}
+
+section.CV-titre h1 {
+    margin: 0;
+    font-size: 90px;
+    text-align: center;
+    padding: 110px 0;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 3px 2px 16px rgb(255, 255, 255);
+}
+
+a#Acc {
+    font-size: 35px;
+    text-shadow: 1px 1px white;
+}
+
+a#Cat {
+    font-size: 35px;
+    text-shadow: 1px 1px white;
+}
+
+a#Proj {
+    font-size: 35px;
+    text-shadow: 1px 1px white;
+}
+
+a#Pro {
+    font-size: 35px;
+    text-shadow: 1px 1px white;
+}
+
+a#Gal {
+    font-size: 35px;
+    text-shadow: 1px 1px white;
+}
+
+a#CV {
+    font-size: 35px;
+    text-shadow: 1px 1px white;
+}
+
+a#Con {
+    font-size: 35px;
+    text-shadow: 1px 1px white;
+}
+
+ul.rs#rscv {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 110px;
+    right: 45px;
+}
+
+ul.niv_1CV {
+    margin-bottom: 0;
+}
+
+ul.niv_1CV > li {
+    display: inline-block;
+    position: relative;
+}
+
+ul.niv_1CV li a:hover, ul.niv_1CV li a:focus {
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+ul.niv_1CV li:hover ul.niv_2CV {
+    display: block;
+    border-radius: 10px;
+    margin-left: 16px;
+}
+
+ul.niv_2CV {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    /* background-color: gray; */
+    background-image: url('assets/images/Back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0;
+    box-shadow: 3px 2px 16px rgb(5, 5, 5);
+}
+
+ul.niv_2CV li a, 
+ul.niv_2CV li a:visited {
+    text-align: left;
+}
+
+ul.niv_2CV li a:hover, 
+ul.niv_2CV li a:focus {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* FIN Section Titre CV */
+
+/* Section Contact*/
+
+section iframe#Maps {
+    float: right;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* margin-bottom: 100px; */
+    right: 0px;
+    top: 670px;
+    position: absolute;
+    /* margin-top: 600px; */
+}
+
+section#rens p {
+    list-style-type: none;
+	padding: 0;
+    margin: 0;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+form#comm {
+    border-radius: 10px;
+    border-width: 6px;
+    border-style: double;
+    /* border-color: rgb(255, 0, 0); */
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin-left: 100px;
+    margin-right: 800px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+ul.niv_1Cont {
+    margin-bottom: 0;
+}
+
+ul.niv_1Cont > li {
+    display: inline-block;
+    position: relative;
+    right: 20px;
+}
+
+ul.niv_1Cont li a:hover, ul.niv_1Cont li a:focus {
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* FIN Section Contact */
+
+/* Section Galerie */
+
+ul.rsGal {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+ul.rsGal li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+ul.rsGal li a,
+ul.rsGal li a:visited {
+	font-size: 50px;
+}
+
+ul.rsGal li a#facebook:hover,
+ul.rsGal li a#facebook:focus {
+	color: rgb(9, 35, 148);
+}
+
+ul.rsGal li a#twitter:hover,
+ul.rs li a#twitter:focus {
+	color: rgb(20, 164, 221);
+}
+
+ul.rsGal li a#linkedin:hover,
+ul.rsGal li a#linkedin:focus {
+	color: rgb(20, 120, 167);
+}
+
+ul.rsGal li a#github:hover,
+ul.rsGal li a#github:focus {
+	color: rgb(255, 255, 255);
+}
+
+
+/* FIN Section Galerie */
+
+ul.rs {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 80px;
+	right: 100px;
+}
+
+ul.rs li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+ul.rs li a,
+ul.rs li a:visited {
+	font-size: 50px;
+}
+
+ul.rs li a#facebook:hover,
+ul.rs li a#facebook:focus {
+	color: rgb(9, 35, 148);
+}
+
+ul.rs li a#twitter:hover,
+ul.rs li a#twitter:focus {
+	color: rgb(20, 164, 221);
+}
+
+ul.rs li a#linkedin:hover,
+ul.rs li a#linkedin:focus {
+	color: rgb(20, 120, 167);
+}
+
+ul.rs li a#github:hover,
+ul.rs li a#github:focus {
+	color: rgb(255, 255, 255);
+}
+
+/* MENU */
+nav ul {
+    list-style-type: none;
+}
+nav a, nav a:visited {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 20px 15px;
+    font-size: 22px;
+}
+
+/* A enlever ligne ci-desous si ont veut que l'image ne touche plus au menu haut */
+
+ul.niv_1 {
+    margin-bottom: 0;
+}
+
+ul.niv_1 > li {
+    display: inline-block;
+    position: relative;
+}
+
+ul.niv_1 li a:hover, ul.niv_1 li a:focus {
+    color: rgb(255, 255, 255)
+}
+
+ul.niv_1 li:hover ul.niv_2 {
+    display: block;
+}
+
+ul.niv_2 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    /* background-color: gray; */
+    background-image: url('assets/images/Back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0;
+    box-shadow: 3px 2px 16px rgb(5, 5, 5);
+}
+
+ul.niv_2 li a, 
+ul.niv_2 li a:visited {
+    text-align: left;
+}
+
+ul.niv_2 li a:hover, 
+ul.niv_2 li a:focus {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* FOOTER */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    padding: 20px 100px 20px 100px;
+    background-color:rgb(68, 67, 67);
+    background-image:url(assets/images/Back.jpg);
+    z-index: 100000000;
+}
+
+footer .right {
+    position: absolute;
+    top: 0;
+    right: 150px;
+}
+
+ul.footer_links {
+    list-style-type: none;
+}
+
+ul.footer_links li {
+    display: inline-block;
+    /* padding: 8px 1px; */
+    position: relative;
+}
+
+/* MIDBLOCK */
+
+.mid_block {
+    padding: 40px 100px 40px 400px;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.mid_block aside {
+    width: 250px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    padding-bottom: 80px;
+}
+
+.mid_block a {
+    /* width: 250px; */
+    width: px;
+    height: 250px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+/* .mid_block a#carou {
+    width: 250px;
+    width: px;
+    height: 250px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    padding-top: 138px;
+    padding-bottom: 138px;
+    padding-left: 600px;
+    padding-right: 600px;
+    z-index: 100000;
+} */
+
+.mid_block a div {
+    position: absolute;
+    bottom: -200px;
+    height: 250px;
+    left: 0;
+    background-color: darkgoldenrod;
+    width: 100%;
+    padding: 5px 10px;
+    transition: all 0.4s ease;
+}
+
+.mid_block a span {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.mid_block a:hover
+.mid_block a:focus {
+	/*color: #000;*/
+}
+
+.mid_block a:hover div,
+.mid_block a:focus div {
+	/*padding: inherit;*/
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: auto;
+	background-color: rgba(250, 250, 250, 0.8);
+	/*color: #000;*/
+}
+
+.mid_block a:hover div span,
+.mid_block a:focus div span {
+	/*text-align: center;*/
+    /*color: #000;*/
+}
+
+.mid_block a:hover div span.title,
+.mid_block a:focus div span.title {
+    padding-top: 20px;
+}
+
+.mid_block a div span {
+    display: block;
+    transition: all 0.4s ease;
+}
+
+.mid_block a div span.title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.mid_block a div span.date {
+    font-size: 11px;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.mid_block section {
+    padding: 10px 20px;
+    position: absolute;
+    left: 100px;
+}
+
+/* Section Texte Index */
+
+.mid_block section p {
+	font-size: 25px;
+	text-align: center;
+}
+
+/* FIN Section Texte Index */
+
+.mid_block section p:first-child {
+    margin-top: 0;
+}
+
+/*****carrousel 3d automatique*****/
+
+*{box-sizing : border-box}
+
+img{max-width:100%}
+
+.contenu_carou_auto{
+    margin: 2rem 420px 30px;
+    width:420px;
+    height:279px;
+    perspective:8000px;
+    margin-block-start:100px;
+}
+
+.caroussel-image{
+    animation:rotation 50s infinite alternate linear;
+    transform-style:preserve-3d;
+    position:relative;
+}
+
+.caroussel-image img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.caroussel-image img{
+    filter:drop-shadow(0 12px 5px hsla(0,0%,0%,.4));
+    width:400px;
+    height:266px;
+    left:10px;
+    outline:1px solid transparent;
+    backface-visibility:hidden
+}
+
+.caroussel-image img:nth-child(1){
+    transform:translate3d(0,0,495px)
+}
+
+.caroussel-image img:nth-child(2){
+    transform:rotateY(45deg) translateZ(495px)
+}
+
+.caroussel-image img:nth-child(3){
+    transform:rotateY(90deg) translateZ(495px)
+}
+
+.caroussel-image img:nth-child(4){
+    transform:rotateY(135deg) translateZ(495px)
+}
+
+.caroussel-image img:nth-child(5){
+    transform:rotateY(180deg) translateZ(495px)
+}
+
+.caroussel-image img:nth-child(6){
+    transform:rotateY(225deg) translateZ(495px)
+}
+
+.caroussel-image img:nth-child(7){
+    transform:rotateY(270deg) translateZ(495px)
+}
+
+.caroussel-image img:nth-child(8){
+    transform:rotateY(315deg) translateZ(495px)
+}
+
+.caroussel-image img:nth-child(9){
+    transform:rotateY(360deg) translateZ(495px)
+}
+
+@keyframes rotation{
+from{transform:rotatey(0)}
+to{transform:rotatey(1turn)}}
+
+/*****FIN carrousel 3d automatique*****/
+
+/*****carrousel 3d avec navigation*****/
+
+*{box-sizing: border-box}
+
+img{max-width:100%}
+
+.caroussel_diapo input{position:absolute;left:-9999px}
+
+.caroussel_diapo{
+    position: absolute;
+    margin-left: 500px;
+    margin-right: 580px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+.contenu_carou {
+    width:500px;
+    height:332px;
+    perspective:4000px
+}
+
+
+.caroussel{
+
+transform-style:preserve-3d;
+position:relative;
+width:500px;
+height:332px;
+transition:1s
+}
+
+.caroussel img {
+
+position:absolute;
+top:0;left:0;
+outline:1px solid transparent;
+backface-visibility:hidden;
+transition:1s
+}
+
+.caroussel img{filter:blur(3px);opacity:.8}
+.caroussel img:nth-child(1){transform:translate3d(0,0,540px) scale(.8)}
+.caroussel img:nth-child(2){transform:rotateY(45deg) translateZ(540px) scale(.8)}
+.caroussel img:nth-child(3){transform:rotateY(90deg) translateZ(540px) scale(.8)}
+.caroussel img:nth-child(4){transform:rotateY(135deg) translateZ(540px) scale(.8)}
+.caroussel img:nth-child(5){transform:rotateY(180deg) translateZ(540px) scale(.8)}
+.caroussel img:nth-child(6){transform:rotateY(225deg) translateZ(540px) scale(.8)}
+.caroussel img:nth-child(7){transform:rotateY(270deg) translateZ(540px) scale(.8)}
+.caroussel img:nth-child(8){transform:rotateY(315deg) translateZ(540px) scale(.8)}
+
+.caroussel_diapo input[type=radio] + label {
+
+cursor:pointer;
+background:hsl(203,77%,81%);
+display:inline-block;
+width:20px;
+border-radius:50%;
+height:20px
+}
+
+.caroussel_diapo input[type=radio]:checked + label{background:hsl(203,77%,61%)}
+
+.caroussel_diapo label{background:hsl(203,77%,61%)}
+
+
+
+.caroussel_diapo input[name="rotation"]:checked ~ .contenu_carou .caroussel img:nth-child(n){
+filter:drop-shadow(12px 12px 7px hsla(0,0%,0%,.5))
+}
+
+/*gauche*/
+.caroussel_diapo #carou_un:checked ~ .contenu_carou .caroussel{transform:translateZ(-540px)}
+.caroussel_diapo #carou_deux:checked ~ .contenu_carou .caroussel{transform:translateZ(-540px) rotateY(-45deg)}
+.caroussel_diapo #carou_trois:checked ~ .contenu_carou .caroussel{transform:translateZ(-540px) rotateY(-90deg)}
+.caroussel_diapo #carou_quatre:checked ~ .contenu_carou .caroussel{transform:translateZ(-540px) rotateY(-135deg)}
+.caroussel_diapo #carou_cinq:checked ~ .contenu_carou .caroussel{transform:translateZ(-540px) rotateY(-180deg)}
+.caroussel_diapo #carou_six:checked ~ .contenu_carou .caroussel{transform:translateZ(-540px) rotateY(-225deg)}
+.caroussel_diapo #carou_sept:checked ~ .contenu_carou .caroussel{transform:translateZ(-540px) rotateY(-270deg)}
+.caroussel_diapo #carou_huit:checked ~ .contenu_carou .caroussel{transform:translateZ(-540px) rotateY(-315deg)}
+
+
+/*droite*/
+.caroussel_diapo #carou_un:checked ~ .contenu_carou .caroussel img:nth-child(1){transform:translateZ(540px) scale(1);opacity:1}
+.caroussel_diapo #carou_deux:checked ~ .contenu_carou .caroussel img:nth-child(2){transform:rotateY(45deg) translateZ(540px) scale(1);opacity:1}
+.caroussel_diapo #carou_trois:checked ~ .contenu_carou .caroussel img:nth-child(3){transform:rotateY(90deg) translateZ(540px) scale(1);opacity:1}
+.caroussel_diapo #carou_quatre:checked ~ .contenu_carou .caroussel img:nth-child(4){transform:rotateY(135deg) translateZ(540px) scale(1);opacity:1}
+.caroussel_diapo #carou_cinq:checked ~ .contenu_carou .caroussel img:nth-child(5){transform:rotateY(180deg) translateZ(540px) scale(1);opacity:1}
+.caroussel_diapo #carou_six:checked ~ .contenu_carou .caroussel img:nth-child(6){transform:rotateY(225deg) translateZ(540px) scale(1);opacity:1}
+.caroussel_diapo #carou_sept:checked ~ .contenu_carou .caroussel img:nth-child(7){transform:rotateY(270deg) translateZ(540px) scale(1);opacity:1}
+.caroussel_diapo #carou_huit:checked ~ .contenu_carou .caroussel img:nth-child(8){transform:rotateY(315deg) translateZ(540px) scale(1);opacity:1}
+
+
+/*****FIN carrousel 3d avec navigation*****/
+
+/* ---------------page projet--------------- */
+
+section.header_title h1 span {
+    padding:100px;
+}
+
+.corp_left aside {
+    /* border-radius: 10px;
+    border-width: 6px;
+    border-style: double;
+    border-color: rgb(255, 255, 255); */
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin: 10px 750px 60px 80px;
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+
+.corp_left div.projet1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    margin: 20px;
+    padding: 40px 0%;
+    position: relative;
+}
+
+.corp_left div.projet2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    margin: 20px;
+    padding: 40px 0%;
+    position: relative;
+}
+
+.corp_left div.projet3 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    margin: 20px;
+    padding: 40px 0%;
+    position: relative;
+}
+
+.progress-bar {
+    border-radius: 10px;
+    border-width: 6px;
+    /* border-style: double; */
+    border-color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    color: white;
+    margin: -1620px 100px 60px 1050px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+div.progress-bar label#Python {
+    padding-right: 20px;
+    font-size: 1rem;
+    font-size: 25px;
+}
+
+div.progress-bar label#SQL {
+    padding-right: 20px;
+    font-size: 1rem;
+    font-size: 25px;
+}
+
+div.progress-bar label#HTML-CSS {
+    padding-right: 20px;
+    font-size: 1rem;
+    font-size: 25px;
+}
+
+/* .corp_left div:hover, img:hover {
+    height: 315px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+
+
+/* ---------------FIN page projet--------------- */
+
+/* Titre Caroussel */
+
+div#Caroussel-titre p{
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    /* float: right; */
+    padding-top: 100px;
+    color: black;
+    text-shadow: 1px 1px rgb(5, 157, 177);
+}
+
+/* FIN Titre Caroussel */
+
+
+@media only screen and (max-width: px) {
+	
+	}
+}

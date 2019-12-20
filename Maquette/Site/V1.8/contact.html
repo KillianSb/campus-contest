@@ -19,7 +19,7 @@
         <header>
             <!-- image -->
             <a href="CV.html" class="photo">
-                <img src="assets/images/photo.png" alt="Description de l'image" width="140" height="160" />
+                <img src="assets/images/photo.jpg" alt="Description de l'image" width="160" height="200" />
             </a>
 
             <!-- réseaux sociaux -->
@@ -35,12 +35,12 @@
                     </a>
                 </li>
                 <li>
-                    <a id="linkedin" target="_blank" href="https://fr.linkedin.com" title="LinKedln">
+                    <a id="linkedin" target="_blank" href="https://fr.linkedin.com/in/killian-sieniski-371846194?trk=people-guest_profile-result-card_result-card_full-click" title="LinKedln">
                         <i class="fa fa-linkedin-square"></i>
                     </a>
                 </li>
                 <li>
-                    <a id="github" target="_blank" href="https://github.com" title="Github">
+                    <a id="github" target="_blank" href="https://github.com/TheKller29" title="Github">
                         <i class="fa fa-github"></i>
                     </a>
                 </li>
@@ -49,7 +49,7 @@
             <!-- menu -->
             <nav>
             <!-- liste a puces -->
-                <ul class="niv_1">
+                <ul class="niv_1Cont">
                     <li>
                         <a href="index.html" title="Accueil"><i class="fa fa-safari" aria-hidden="true"></i> Accueil</a>
                     </li>  
@@ -62,23 +62,31 @@
         </section>
         <!-- section Renseignement -->
         <section id="rens" class="renseignement">
-            <p>Nom : Nom</p>
-            <p>Prenom : Prenom</p>
-            <p>Téléphone : Téléphone</p>
-            <p>Mail : Mail</p>
-            <p>Adresse Complete : Adresse Complete</p>
-            <iframe id="Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1349.092503285585!2d-0.5415248917635019!3d47.44733299479362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4807d62822534c7d%3A0x7e427698ecb87d66!2s132%20Avenue%20de%20Lattre%20de%20Tassigny%2C%2049000%20Angers!5e0!3m2!1sfr!2sfr!4v1576674376818!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <p>Nom : SIENISKI</p>
+            <p>Prenom : Killian</p>
+            <p>Téléphone : 0786374892</p>
+            <p>Mail : killian.sieniski@students.campus.academy</p>
+            <p>Adresse Complete : <br />16 Ld Le Village des Bois <br />49140 <br />Fontaine-Milon
+            <iframe id="Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1347.4251072327008!2d-0.25620394179502176!3d47.51230819479469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48080be60112854b%3A0xc8f93c1343155e66!2s16%20Le%20Village%20des%20Bois%2C%2049140%20Maz%C3%A9-Milon!5e0!3m2!1sfr!2sfr!4v1576782453676!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </section>
         <!-- section Commentaire -->
         <form id="comm"
-        action="https://formspree.io/xnqjnylo"
+        action="https://formspree.io/mgeovgjy"
         method="POST"
         >
-        <label>
+        <label id="email">
             Votre email: <br />
             <input type="text" name="_replyto"><br />
         </label>
-        <label>
+        <label id="prenom">
+            Prenom: <br />
+            <textarea name="Prenom"></textarea><br />
+        </label>
+        <label id="Nom">
+            Nom: <br />
+            <textarea name="Nom"></textarea><br />
+        </label>
+        <label id="message">
             Votre message: <br />
             <textarea name="message"></textarea><br />
         </label>
@@ -92,7 +100,7 @@
         <footer>
             <!-- gauche -->
             <div class="left">
-                &copy; 2019 - Prenom Nom
+                &copy; 2019 - Killian Sieniski
             </div>
             <!-- droite -->
             <div class="right">
